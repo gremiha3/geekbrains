@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+var a = float32(5)
+var b = float32(12)
+var c = float32(1)
+var d = float32(7)
+
+func main() {
+	fmt.Printf("Среднее арифметическое = %f\n", (a+b+c+d)/4)
+}
